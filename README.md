@@ -1,5 +1,7 @@
 # floydhub-pytorch-valohai
 
+[Docker hub page](https://hub.docker.com/r/chpoit/floydhub-pytorch-valohai)
+
 ## Publishing the docker image
 
 ### Through docker (must be collaborator on there)
