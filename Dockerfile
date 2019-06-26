@@ -6,7 +6,7 @@ RUN pip install --no-cache-dir numpy scipy scikit-learn nltk emoji
 
 RUN pip install --no-cache-dir pandas cupy
 
-RUN pip install --no-cache-dir boto boto3 fastText=0.8.4
+RUN pip install --no-cache-dir boto boto3 fastText==0.8.4
 
 RUN git clone https://github.com/facebookresearch/fastText/ && cd fastText && make
 
