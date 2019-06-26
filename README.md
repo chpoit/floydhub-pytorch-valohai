@@ -39,9 +39,12 @@ pip:
 - emoji
 - pandas
 - cupy
+- boto
+- boto3
+- fasttext
+
 fastText:
-- Installed as a pip pacakges
-- built and added to path for cmd execution
+- built and added to path for command line execution
 
 nltk packages:
 - averaged_perceptron_tagger
