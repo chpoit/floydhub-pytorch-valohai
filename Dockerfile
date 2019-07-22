@@ -12,4 +12,6 @@ RUN git clone https://github.com/facebookresearch/fastText/ && cd fastText && ma
 
 RUN python3 -m nltk.downloader 'averaged_perceptron_tagger' 'punkt'
 
+RUN pip install --no-cache-dir fairseq
+
 ENV PATH=${PATH}:/fastText/

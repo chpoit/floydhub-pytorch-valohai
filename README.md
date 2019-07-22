@@ -42,6 +42,7 @@ pip:
 - boto
 - boto3
 - fasttext
+- fairseq (>=0.5)
 
 fastText:
 - built and added to path for command line execution
