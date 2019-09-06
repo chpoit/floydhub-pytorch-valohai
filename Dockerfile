@@ -1,4 +1,4 @@
-FROM floydhub/pytorch:1.0.1-gpu.cuda9cudnn7-py3.42
+FROM floydhub/pytorch:1.1.0-gpu.cuda9cudnn7-py3.44
 
 RUN pip install --upgrade pip
 

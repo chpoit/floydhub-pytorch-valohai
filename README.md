@@ -50,3 +50,9 @@ fastText:
 nltk packages:
 - averaged_perceptron_tagger
 - punkt
+
+
+# Update Notes
+# 0.6
+
+Updated the base floydhub image to `1.1.0-gpu.cuda9cudnn7-py3.44` to use the latest pytorch version
