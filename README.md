@@ -56,3 +56,7 @@ nltk packages:
 # 0.6
 
 Updated the base floydhub image to `1.1.0-gpu.cuda9cudnn7-py3.44` to use the latest pytorch version
+
+# 0.7
+
+Update the pytorch version to `1.2` using the floydhub image `pytorch:latest-gpu-py3`
