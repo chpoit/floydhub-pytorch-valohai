@@ -1,4 +1,6 @@
-FROM floydhub/pytorch:1.1.0-gpu.cuda9cudnn7-py3.44
+FROM floydhub/pytorch:latest-gpu-py3
+
+RUN pip3 install torch==1.2.0+cu92 torchvision==0.4.0+cu92 -f https://download.pytorch.org/whl/torch_stable.html
 
 RUN pip install --upgrade pip
 
