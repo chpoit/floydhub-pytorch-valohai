@@ -6,7 +6,7 @@ RUN pip install --upgrade pip
 
 RUN pip install --no-cache-dir numpy scipy scikit-learn nltk emoji
 
-RUN pip install --no-cache-dir pandas cupy
+RUN pip install --no-cache-dir pandas cupy-cuda92
 
 RUN pip install --no-cache-dir boto boto3 fastText
 
